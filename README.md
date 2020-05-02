@@ -1,4 +1,4 @@
-# simple bubble comments
+# simple bubbles comments
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -18,8 +18,13 @@ This is a simple proof of concept for comments that can be applied to a DOM obje
 2. Also add the data for the comments for these points.
 
         ["Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.","Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."]
+
+![simple bubbles add comments](screenshots/add-comment.jpg "Add comments")
  
 3. You can edit and delete comments.
+
+
+![simple bubbles edit comments](screenshots/edit-comment.jpg "Edi comments")
 
 ## Available Scripts
 
