@@ -1,0 +1,102 @@
+
+
+.sourceBox {
+  height: 700px;
+
+}
+.sourceBox img {
+
+  border: 1px solid red;
+  height: 100%;
+  width:100%;
+}
+.has-content svg.bubble-icon {
+  fill: green;
+}
+.is-editing-content svg.bubble-icon {
+  fill: yellowgreen;
+}
+ .bubble-note-button {
+
+
+   position: absolute;
+   top: 0px;
+   width: 40px;
+   text-align: center;
+   height: 40px;
+   opacity: 0;
+   cursor: default;
+   border-width: 1px;
+   border-style: solid;
+   border-color: rgb(238, 238, 238);
+   border-image: initial;
+   background: rgba(255, 255, 255, 0.85);
+   border-radius: 100%;
+   overflow: hidden;
+   transition: opacity 0.25s ease-in-out 0s, z-index 0.26s linear 0.25s;
+   cursor: pointer;
+
+
+ }
+ .bubble-note-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 3px;
+  background: rgba(250, 250, 250, 1);
+ }
+.canvas-body {
+
+  border: 2px solid #61dafb;
+  z-index: 1;
+}
+.popover-main:hover {
+  transition: all 0.5s;
+  box-shadow: rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-color: transparent;
+}
+
+.controls {
+  top: 0;
+  position: absolute;
+}
+.bubble-icon {
+padding:7px;
+}
+ 
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.comment-saved {
+
+}
+.dots-more {
+  position: absolute;
+  width: 18px;
+  right: 0;
+  top: 0;
+  opacity: 0.3;
+}
+.dots-more:hover {
+  opacity: 1;
+  cursor: pointer;
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
